@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coin Game Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <strong>Coin Game</strong>
+      <span id="roomInfo"></span>
+    </div>
+    <div id="lotBar" class="lot-bar" aria-label="Lote atual"></div>
+  </header>
+  <main id="app"></main>
+  <div id="toast" class="toast" hidden role="status"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
